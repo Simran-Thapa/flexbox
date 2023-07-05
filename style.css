@@ -1,0 +1,26 @@
+.flexbox-container{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    
+}
+.flexbox-item{
+    flex: 2px;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(70, 154, 245);
+}
+/* Media Queries */
+@media (max-width:600){
+    .flexbox-item{
+        flex: calc();
+    }
+}
+@media (max-width: 500px) {
+    .flexbox-item {
+      
+      flex-basis: 100%;
+    }
+ } 
+
